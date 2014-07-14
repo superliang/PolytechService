@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        <!-- <item name="android:windowNoTitle">true</item> -->
+    </style>
+
+    <style name="LoginFormContainer">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">16dp</item>
+    </style>
+
+    <style name="actionBar" parent="android:style/Theme.Holo.Light"></style>
+
+    <style name="actionBar.ActionBar" parent="android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">@color/login_title_color</item>
+    </style>
+
+
+</resources>

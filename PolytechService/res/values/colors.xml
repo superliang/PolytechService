@@ -1,0 +1,8 @@
+<resources>
+
+    <color name="black_overlay">#66000000</color>
+    
+    <!-- Login color -->
+    <color name="login_title_color">#006DC3</color>
+
+</resources>
