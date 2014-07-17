@@ -4,7 +4,9 @@
     <!-- Application theme. -->
     <style name="AppTheme" parent="AppBaseTheme">
         <!-- All customizations that are NOT specific to a particular API-level can go here. -->
-        <!-- <item name="android:windowNoTitle">true</item> -->
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Translucent</item>
+        <item name="android:windowNoTitle">true</item>
     </style>
 
     <style name="LoginFormContainer">
@@ -19,5 +21,26 @@
         <item name="android:background">@color/login_title_color</item>
     </style>
 
-
+    
+    <!-- include menu bottom  -->
+	<style name="includeMenuItem">
+	    <item name="android:layout_width">wrap_content</item>
+	    <item name="android:layout_height">60dp</item>
+	    <item name="android:layout_weight">1</item>
+	    <item name="android:paddingTop">10dp</item>
+	    <item name="android:background">@drawable/global_menu_bg</item>
+	    <item name="android:gravity">center</item>	</style>
+	
+	<style name="base_listview_style" parent="@android:style/Widget.ListView">
+        <item name="android:scrollbarThumbVertical">@drawable/base_list_scrollbar_handle</item>
+        <item name="android:fadingEdge">none</item>
+        <item name="android:fadingEdgeLength">0dp</item>
+        <item name="android:alwaysDrawnWithCache">true</item>
+        <item name="android:listSelector">#00000000</item>
+        <item name="android:drawSelectorOnTop">false</item>
+        <item name="android:cacheColorHint">#00000000</item>
+        <item name="android:divider">@null</item>
+        <item name="android:dividerHeight">0dp</item>
+    </style>
+	
 </resources>

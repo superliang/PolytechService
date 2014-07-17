@@ -8,4 +8,17 @@
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
 
+    <!-- global -->
+    <string name="global_text_placeholder">博泰服务</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="global_menu_wdtz_text">我的通知</string>
+    <string name="global_menu_wdfwd_text">我的服务单</string>
+    <string name="global_menu_pjgh_text">配件更换</string>
+    <string name="global_menu_fwdgz_text">服务单跟踪</string>
+    <string name="title_activity_wdtz">WdtzActivity</string>
+    <string name="title_activity_wdfwd">WdfwdActivity</string>
+    <string name="title_activity_bjgh">BjghActivity</string>
+    <string name="title_activity_fwgz">FwgzActivity</string>
+    <string name="global_image_desc">TODO</string>
+
 </resources>

@@ -16,7 +16,6 @@
         <activity
             android:name="cn.com.jandar.polytech.activity.LoginActivity"
             android:label="@string/title_activity_login"
-            android:theme="@style/StyledIndicators"
             android:windowSoftInputMode="adjustResize|stateVisible" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -24,7 +23,26 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
+        <activity
+            android:name="cn.com.jandar.polytech.activity.HomeActivity"
+            android:label="@string/title_activity_home" >
+        </activity>
+        <activity
+            android:name="cn.com.jandar.polytech.activity.WdtzActivity"
+            android:label="@string/title_activity_wdtz" >
+        </activity>
+        <activity
+            android:name="cn.com.jandar.polytech.activity.WdfwdActivity"
+            android:label="@string/title_activity_wdfwd" >
+        </activity>
+        <activity
+            android:name="cn.com.jandar.polytech.activity.PjghActivity"
+            android:label="@string/title_activity_bjgh" >
+        </activity>
+        <activity
+            android:name="cn.com.jandar.polytech.FwgzActivity"
+            android:label="@string/title_activity_fwgz" >
+        </activity>
     </application>
 
 </manifest>
