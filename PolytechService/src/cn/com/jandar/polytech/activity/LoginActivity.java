@@ -57,6 +57,9 @@ public class LoginActivity extends BaseActivity {
 		setContentView(R.layout.activity_login);
 		initTbar("登陆界面");
 
+		Intent intent = new Intent(this,HomeActivity.class);
+		startActivity(intent);
+		
 		// Set up the login form.
 		mEmail = getIntent().getStringExtra(EXTRA_EMAIL);
 		mEmailView = (EditText) findViewById(R.id.username);
@@ -200,7 +203,7 @@ public class LoginActivity extends BaseActivity {
 			// TODO: attempt authentication against a network service.
 			try {
 				// Simulate network access.
-				Thread.sleep(2000);
+				Thread.sleep(1000);
 			} catch (InterruptedException e) {
 				return false;
 			}
@@ -220,8 +223,7 @@ public class LoginActivity extends BaseActivity {
 		@Override
 		protected void onPostExecute(final Boolean success) {
 			mAuthTask = null;
-			showProgress(false);
-
+			
 			if (success) {
 				Intent intent = new Intent(LoginActivity.this,HomeActivity.class);
 				startActivity(intent);
@@ -230,6 +232,9 @@ public class LoginActivity extends BaseActivity {
 						.setError(getString(R.string.error_incorrect_password));
 				mPasswordView.requestFocus();
 			}
+			
+			showProgress(false);
+			finish();
 		}
 
 		@Override

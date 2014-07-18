@@ -33,7 +33,8 @@
         </activity>
         <activity
             android:name="cn.com.jandar.polytech.activity.WdfwdActivity"
-            android:label="@string/title_activity_wdfwd" >
+            android:label="@string/title_activity_wdfwd"
+            android:theme="@style/AppThemeActivity" >
         </activity>
         <activity
             android:name="cn.com.jandar.polytech.activity.PjghActivity"
@@ -43,6 +44,9 @@
             android:name="cn.com.jandar.polytech.FwgzActivity"
             android:label="@string/title_activity_fwgz" >
         </activity>
+        <activity
+            android:name="cn.com.jandar.polytech.activity.wdfwd.XfwdActivity"
+            android:label="@string/title_activity_fwgz"></activity>
     </application>
 
 </manifest>

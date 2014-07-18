@@ -16,7 +16,7 @@
     <string name="global_menu_pjgh_text">配件更换</string>
     <string name="global_menu_fwdgz_text">服务单跟踪</string>
     <string name="title_activity_wdtz">WdtzActivity</string>
-    <string name="title_activity_wdfwd">WdfwdActivity</string>
+    <string name="title_activity_wdfwd">我的服务单</string>
     <string name="title_activity_bjgh">BjghActivity</string>
     <string name="title_activity_fwgz">FwgzActivity</string>
     <string name="global_image_desc">TODO</string>

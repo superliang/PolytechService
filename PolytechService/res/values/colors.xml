@@ -8,4 +8,6 @@
 
     <!-- title color -->
     <color name="title_bg_color">#409BE4</color>
+    
+    <color name="xfwd_bg">#3B6690</color>
 </resources>

@@ -20,6 +20,7 @@ public abstract class BaseActivity extends Activity {
 	
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
+		context = BaseActivity.this;
 	}
 
 	/**

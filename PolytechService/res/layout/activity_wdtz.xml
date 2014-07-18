@@ -16,7 +16,7 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:background="@drawable/home_bg"
+        android:background="@drawable/global_second_bg"
         style="@style/base_listview_style" >
     </ListView>
 
